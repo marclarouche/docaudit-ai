@@ -1,0 +1,19 @@
+profile: academic
+max_sentence_words: 40
+terminology:
+  - term: utilize
+    replacement: use
+  - term: in order to
+    replacement: to
+  - term: simply
+    replacement: "omit or explain the required steps"
+excluded_headings: ["references", "bibliography", "works cited", "references and bibliography"]
+preferred_terms:
+  - preferred: DocAudit AI
+    variants: [DocAuditAI, Doc Audit AI]
+  - preferred: email
+    variants: [e-mail]
+    enforce_case: false
+acronyms:
+  enabled: true
+  allowlist: [AI, API, UI, UX, URL, HTTP, HTTPS, HTML, CSS, JSON, XML, YAML, SQL, UTF, CPU, RAM, GPU, DOCX, PDF, TXT, VS, NOTE, WARNING, IMPORTANT, CAUTION, TIP, GOVERN, MAP, MEASURE, MANAGE]

@@ -1,0 +1,8 @@
+max_sentence_words: 25
+terminology:
+  - term: utilize
+    replacement: use
+  - term: in order to
+    replacement: to
+  - term: simply
+    replacement: "omit or explain the required steps"
